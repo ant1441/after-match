@@ -1,0 +1,13 @@
+[package]
+name = "after-match"
+version = "0.1.0"
+authors = ["adam <ant1441@gmail.com>"]
+edition = "2018"
+description = "A simple utility to show only lines following a match"
+repository = "https://github.com/ant1441/after-match/"
+license = "MIT"
+
+[dependencies]
+structopt = "0.3.17"
+regex = "1.3.9"
+anyhow = "1.0.33"
